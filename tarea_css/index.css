@@ -1,0 +1,63 @@
+body{
+    /* background-color: black; */
+}
+.class_div{
+    display: inline-block;
+}
+.boton1{
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    border-width: 0px;
+    border-radius: 100%;
+    border-color: dodgerblue;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boton2{
+    background-color: dodgerblue;
+    width: 300px;
+    height: 100px;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: dodgerblue;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boton3{
+    background-color:transparent;
+    width: 300px;
+    height: 100px;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: dodgerblue;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: dodgerblue;
+    font-weight: 500;
+/*     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ */}
+
+ .boton4{
+     background-color: deeppink;
+     width: 300px;
+     height: 100px;
+     border-width: 4px;
+     border-radius: 10px;
+     border-color: fuchsia;
+     font-size: 40px;
+     font-weight: bold;
+     font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+     color:greenyellow;
+     font-weight: 500;
+     box-shadow: 0 12px 16px 0 rgb(247, 0, 255), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }

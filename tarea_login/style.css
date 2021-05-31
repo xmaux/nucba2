@@ -1,0 +1,72 @@
+body,html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   /* especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas. Si la cobertura (wrap) está permitida, esta propiedad también te permite controlar la dirección en la cual serán apilados los elementos */
+    justify-content: center; /* Alinea items verticalmente */
+    align-items: center; /* alinea item horizontalmente */
+    /* background-color: thistle; */
+    background-image: url("./img/ws_Red_Widescreen_Wallpaper_1600x1200.jpg");
+    background-color: transparent;
+}
+
+.estilo_titulo{
+    color: white;
+    text-transform: uppercase; /* letras en mayusulas */
+    font-weight: 500; /* la negrita de la fuente */
+}
+.cuadrado_central{
+    width: 300px;
+    height: 400px;
+    padding: 40px; /* espaciado directo entre items*/
+    background-color: red;
+    text-align: center;
+    opacity: 0.50;
+}
+
+.cuadrado_central input[type="text"],
+.cuadrado_central input[type="password"],
+.cuadrado_central input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #3742fa;
+    width: 200px;
+    outline: none; /* para que no resalte el borde al seleccionar */
+    color: white; /* color del texto */
+    border-radius: 24px;
+    transition: 0.25s; /* para la transcicion del efecto de los textbox */
+}
+
+.cuadrado_central input[type="text"]:focus,
+.cuadrado_central input[type="password"]:focus{
+    width: 280px;
+    border-color: yellowgreen;
+    background-color: black;
+}
+
+.cuadrado_central input[type="submit"] {
+    border: 0;
+    background-color: blue;
+    cursor: pointer;
+    border: 2px solid #3742fa;
+}
+
+.cuadrado_central input[type="submit"]:hover {
+    background-color: transparent;
+}
+
+.avatar{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
